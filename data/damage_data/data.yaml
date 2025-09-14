@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['dent', 'dirt', 'scratch']
+
+roboflow:
+  workspace: test-upiwp
+  project: car-scratch-and-dent-t5faz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-upiwp/car-scratch-and-dent-t5faz/dataset/1
